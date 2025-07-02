@@ -75,7 +75,7 @@
         /* --- অধ্যায় তালিকার জন্য স্টাইল --- */
         .sidebar-section { padding-top: 25px; border-top: 1px solid var(--border-color); }
         .sidebar-section h3 { font-size: 1.5em; color: #fff; margin-top: 0; padding-bottom: 10px; margin-bottom: 15px; border-bottom: 1px solid var(--border-color); }
-        .chapter-guide-list { max-height: 280px; overflow-y: auto; padding-right: 10px; margin-bottom: 25px; }
+        .chapter-guide-list { max-height: 350px; overflow-y: auto; padding-right: 10px; }
         .chapter-guide-item { display: block; width: 100%; text-align: left; padding: 12px 15px; background-color: transparent; border: 1px solid var(--border-color); color: var(--primary-text); border-radius: 6px; margin-bottom: 8px; font-weight: 500; transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; cursor: pointer; font-size: 0.95em; font-family: 'Hind Siliguri', sans-serif; }
         .chapter-guide-item:hover, .chapter-guide-item.active { background-color: var(--accent-color); color: var(--bg-dark); border-color: var(--accent-color); }
         .chapter-guide-item strong { color: var(--accent-color); }
@@ -116,7 +116,7 @@
                         <h3>Physics Saviour (ভার্সিটি + গুচ্ছ)</h3>
                         <p class="card-description">ভার্সিটি ও গুচ্ছ ভর্তি পরীক্ষার জন্য বেসিক থেকে শুরু করে প্রশ্ন সমাধান পর্যন্ত পূর্ণাঙ্গ প্রস্তুতি।</p>
                         <div class="card-links">
-                            <button class="btn-playlist" data-playlist="physicsSaviour">▶️ প্লে-লিস্ট দেখুন</button>
+                            <button class="btn-playlist" data-resource="physicsSaviour">▶️ প্লে-লিস্ট দেখুন</button>
                             <a href="https://drive.google.com/drive/folders/1bROtWtERKm6RKoXLTEmKrgCZihmkrPqc" target="_blank" class="btn-pdf">📥 PDF ফোল্ডার</a>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                         <h3>Physics All Concept Series</h3>
                         <p class="card-description">পদার্থবিজ্ঞানের প্রতিটি অধ্যায়ের গুরুত্বপূর্ণ কনসেপ্টগুলো সহজে বোঝার জন্য এই সিরিজটি সেরা।</p>
                         <div class="card-links">
-                            <button class="btn-playlist" data-playlist="physicsConcept">▶️ প্লে-লিস্ট দেখুন</button>
+                            <button class="btn-playlist" data-resource="physicsConcept">▶️ প্লে-লিস্ট দেখুন</button>
                             <a href="https://drive.google.com/drive/folders/1pikBRgXyY4X1ClevmHh_KMWurCA-oDdJ" target="_blank" class="btn-pdf">📥 PDF ফোল্ডার</a>
                         </div>
                     </div>
@@ -132,8 +132,16 @@
                         <h3>Physics Admission Preparation</h3>
                         <p class="card-description">অ্যাডমিশন পরীক্ষার্থীদের জন্য বিশেষভাবে তৈরি, যেখানে কঠিন বিষয়গুলো সহজভাবে ব্যাখ্যা করা হয়েছে।</p>
                         <div class="card-links">
-                            <button class="btn-playlist" data-playlist="physicsAdmission">▶️ প্লে-লিস্ট দেখুন</button>
+                            <button class="btn-playlist" data-resource="physicsAdmission">▶️ প্লে-লিস্ট দেখুন</button>
                             <a href="https://drive.google.com/drive/u/0/folders/1MCM_5yQveGeR8t8QH6weQ4d83Yk5UXLR" target="_blank" class="btn-pdf">📥 PDF ফোল্ডার</a>
+                        </div>
+                    </div>
+                     <div class="resource-card">
+                        <h3>Hand Calculation for Admission</h3>
+                        <p class="card-description">বিশ্ববিদ্যালয় ভর্তি পরীক্ষার জন্য হ্যান্ড ক্যালকুলেশন এবং দ্রুত গণনার কৌশল।</p>
+                        <div class="card-links">
+                            <button class="btn-playlist" data-resource="handCalculation">▶️ ভিডিও দেখুন</button>
+                            <a href="https://drive.google.com/drive/folders/1SSzWkJ4Fsu3SU4DvJBnfN0-KKE0VaONm?usp=sharing" target="_blank" class="btn-pdf">📥 PDF ফোল্ডার</a>
                         </div>
                     </div>
                 </div>
@@ -146,7 +154,7 @@
                         <h3>Udvash Chemistry Marathon</h3>
                         <p class="card-description">শেষ মুহূর্তের রিভিশন ও প্রস্তুতির জন্য উদ্ভাস একাডেমিকের ম্যারাথন ক্লাসগুলো খুবই কার্যকরী।</p>
                         <div class="card-links">
-                            <button class="btn-playlist" data-playlist="chemMarathon">▶️ প্লে-লিস্ট দেখুন</button>
+                            <button class="btn-playlist" data-resource="chemMarathon">▶️ প্লে-লিস্ট দেখুন</button>
                             <a href="https://drive.google.com/drive/folders/1-zkFLBRXFnnCQrGotRb8skjgjv0EOlQ8?usp=sharing" target="_blank" class="btn-pdf">📥 PDF ফোল্ডার</a>
                         </div>
                     </div>
@@ -160,9 +168,8 @@
                         <h3>Biology Aapathshala</h3>
                         <p class="card-description">জীববিজ্ঞানের প্রতিটি টপিক গুছিয়ে পড়ার জন্য এই প্লে-লিস্ট এবং কোর্সটি অনেক সহায়ক হবে।</p>
                         <div class="card-links">
-                            <button class="btn-playlist" data-playlist="bioAapathshala">▶️ প্লে-লিস্ট দেখুন</button>
+                            <button class="btn-playlist" data-resource="bioAapathshala">▶️ প্লে-লিস্ট দেখুন</button>
                             <a href="https://drive.google.com/drive/folders/11NLVN7zDDWf4P73GVxbL8I8KO62H-_IH?usp=sharing" target="_blank" class="btn-pdf">📥 PDF ফোল্ডার</a>
-                            <a href="https://aapathshala.com/course/fbc24?week=228" target="_blank" class="btn-website">🌐 কোর্স দেখুন</a>
                         </div>
                     </div>
                 </div>
@@ -182,7 +189,7 @@
             </section>
         </main>
         <footer class="container">
-            <p>&copy; ২০২৪ - সকল শিক্ষার্থীর শিক্ষাযাত্রা শুভ হোক।</p>
+            <p>© ২০২৪ - সকল শিক্ষার্থীর শিক্ষাযাত্রা শুভ হোক।</p>
         </footer>
     </div>
 
@@ -190,7 +197,7 @@
     <div id="player-view" class="container"></div>
 
     <script>
-        // ==================== রিসোর্স ডেটা (সকল প্লে-লিস্টের জন্য আপডেট করা হয়েছে) ====================
+        // ==================== রিসোর্স ডেটা (চূড়ান্ত এবং সম্পূর্ণ) ====================
         const allResources = {
             'physicsSaviour': {
                 chapterTitle: 'Physics Saviour (ভার্সিটি + গুচ্ছ)',
@@ -242,6 +249,13 @@
                     { name: 'সেমিকন্ডাক্টর ও ইলেকট্রনিক্স', part: 'পূর্ণাঙ্গ' },
                     { name: 'গ্রাফ আঁকার নিয়ম', part: 'বিশেষ ক্লাস' },
                 ]
+            },
+            'handCalculation': {
+                chapterTitle: 'Hand Calculation for University Admission',
+                videoId: 'l4AgrDawejs',
+                teacher: { name: 'Shahriar Nazim', avatar: 'https://placehold.co/50x50/38bdf8/1f2937?text=SN', views: '8.6K+' },
+                stats: { concept: '9.8', solve: '9.5', compactness: '9.2' },
+                comments: [{ avatar: 'https://placehold.co/40x40/ec4899/ffffff?text=S', name: 'শিক্ষার্থী', text: 'ভর্তি পরীক্ষার জন্য খুবই দরকারি একটি ভিডিও!' }],
             },
             'chemMarathon': {
                 chapterTitle: 'Udvash Chemistry Marathon',
@@ -301,12 +315,22 @@
         
         function onPlayerReady(event) {
             event.target.setPlaybackQuality('highres');
-            if (activeChapterCheckInterval) clearInterval(activeChapterCheckInterval);
-            activeChapterCheckInterval = setInterval(() => {
-                if(player && typeof player.getPlaylistIndex === 'function') {
-                    updateActiveChapter(player.getPlaylistIndex());
-                }
-            }, 1000);
+            const data = allResources[player.resourceId];
+            if (data && data.chapters) {
+                if (activeChapterCheckInterval) clearInterval(activeChapterCheckInterval);
+                activeChapterCheckInterval = setInterval(() => {
+                    if(player && typeof player.getPlaylistIndex === 'function') {
+                        updateActiveChapter(player.getPlaylistIndex());
+                    }
+                }, 1000);
+            }
+        }
+
+        function onPlayerStateChange(event) {
+            const data = allResources[player.resourceId];
+             if (event.data === YT.PlayerState.PLAYING && data && data.chapters) {
+                updateActiveChapter(player.getPlaylistIndex());
+            }
         }
 
         function updateActiveChapter(currentIndex) {
@@ -362,9 +386,9 @@
                 </div>`;
         }
         
-        function loadPlaylist(resourceId) {
+        function loadResource(resourceId) {
             const data = allResources[resourceId];
-            if (!data || !data.playlistId) return;
+            if (!data) return;
             
             if (player && typeof player.destroy === 'function') { player.destroy(); }
             if (activeChapterCheckInterval) clearInterval(activeChapterCheckInterval);
@@ -378,10 +402,23 @@
                 playerView.innerHTML = generatePlayerHTML(data);
                 
                 const createPlayer = () => {
-                    player = new YT.Player('youtube-player-container', {
-                        playerVars: { listType: 'playlist', list: data.playlistId, rel: 0, playsinline: 1 },
-                        events: { 'onReady': onPlayerReady, 'onStateChange': (e) => { if (e.data === 1) updateActiveChapter(player.getPlaylistIndex()); } }
-                    });
+                    const playerConfig = {
+                        events: { 
+                            'onReady': onPlayerReady, 
+                            'onStateChange': onPlayerStateChange 
+                        },
+                        playerVars: { rel: 0, playsinline: 1 }
+                    };
+
+                    if (data.playlistId) {
+                        playerConfig.playerVars.listType = 'playlist';
+                        playerConfig.playerVars.list = data.playlistId;
+                    } else if (data.videoId) {
+                        playerConfig.videoId = data.videoId;
+                    }
+                    
+                    player = new YT.Player('youtube-player-container', playerConfig);
+                    player.resourceId = resourceId;
                 };
 
                 if (isApiReady) { createPlayer(); } else {
@@ -405,8 +442,8 @@
             }, 300);
         }
 
-        document.querySelectorAll('.btn-playlist[data-playlist]').forEach(button => {
-            button.addEventListener('click', () => loadPlaylist(button.dataset.playlist));
+        document.querySelectorAll('button[data-resource]').forEach(button => {
+            button.addEventListener('click', () => loadResource(button.dataset.resource));
         });
     </script>
 </body>
